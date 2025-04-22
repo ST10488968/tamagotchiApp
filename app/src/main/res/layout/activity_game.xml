@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GameActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/tvHeading2"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:text="Pet Activity"
+            android:textSize="55sp" />
+
+        <TextView
+            android:id="@+id/tvActivity"
+            android:layout_width="match_parent"
+            android:layout_height="250sp"
+            android:text="What is your pet doing?"
+            android:textSize="45sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnFeed"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:text="Feed" />
+
+            <Button
+                android:id="@+id/btnClean"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:text="Clean" />
+
+            <Button
+                android:id="@+id/btnPlay"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:text="Play" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvHunger"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="25dp"
+            android:text="Hunger"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/tvHealth"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Health"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/tvHappy"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Happiness"
+            android:textSize="25dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    </LinearLayout>
+</LinearLayout>
